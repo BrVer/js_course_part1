@@ -20,6 +20,9 @@ test_robot_func = function(robot){
     robot.move();
     robot.move();
     robot.move();
+    robot.report(); // should be "2,3,EAST"
+    robot.left();
+    robot.report();
     robot.right();
     robot.move();
     robot.move();

@@ -26,7 +26,7 @@ var task6_1 = (function () {
     };
     Robot.prototype.left = function () {
         var currentDirectionIndex = Robot.orderedDirections.indexOf(this._currentDirection);
-        this._currentDirection = Robot.orderedDirections[(currentDirectionIndex - 1) % 4];
+        this._currentDirection = Robot.orderedDirections[(4 + currentDirectionIndex - 1) % 4]; // in the case index was 0
     };
     Robot.prototype.right = function () {
         var currentDirectionIndex = Robot.orderedDirections.indexOf(this._currentDirection);

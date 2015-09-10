@@ -1,4 +1,4 @@
-//quicksort, modifies initial array, so need to be called with a copy of original array!
+// quicksort, modifies initial array, so need to be called with a copy of original array!
 var task1 = (function() {
 
     function swap(array, indexA, indexB) {
