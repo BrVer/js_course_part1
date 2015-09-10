@@ -20,13 +20,13 @@ test_robot_func = function(robot){
     robot.move();
     robot.move();
     robot.move();
-    robot.report(); // should be "2,3,EAST"
+    robot.report();
     robot.left();
     robot.report();
     robot.right();
     robot.move();
     robot.move();
-    robot.report(); // should be "2,3,EAST"
+    robot.report();
 };
 task6_1.test(test_robot_func);
 task6_2.test(test_robot_func);
